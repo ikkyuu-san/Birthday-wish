@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Section -->
+        <section id="welcome" class="section active">
+            <div class="hearts"></div>
+            <h1 class="fade-in">Happy Birthday</h1>
+            <h2 class="fade-in-delay">My Dearest Love</h2>
+            <div id="question" class="question-box">
+                <p class="question-text">Do you want to open it?</p>
+                <div class="button-group">
+                    <button class="vintage-btn" onclick="openGift()">Open it 🎁</button>
+                    <button class="vintage-btn no-btn" onclick="sayNo()">No</button>
+                </div>
+            </div>
+            <div id="retry" class="question-box" style="display: none;">
+                <p class="question-text">Awh... Let's try again, Please.?</p>
+                <button class="vintage-btn" onclick="showQuestion()">Again 💝</button>
+            </div>
+        </section>
+
+        <!-- Photo Album Section -->
+        <section id="album" class="section">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="photo-grid">
+                <div class="photo-frame" style="animation-delay: 0.1s">
+                    <img src="photo/photo5.jpg" alt="Memory 1">
+                    <p class="photo-caption">Our First Adventure</p>
+                </div>
+                <div class="photo-frame" style="animation-delay: 0.3s">
+                    <img src="photo/photo6.jpg" alt="Memory 2">
+                    <p class="photo-caption">That Perfect Day</p>
+                </div>
+                <div class="photo-frame" style="animation-delay: 0.5s">
+                    <img src="photo/photo2.jpg" alt="Memory 3">
+                    <p class="photo-caption">Forever Smiling</p>
+                </div>
+                <div class="photo-frame" style="animation-delay: 0.7s">
+                    <img src="photo/photo4.jpg" alt="Memory 4">
+                    <p class="photo-caption">You & Me</p>
+                </div>
+                <div class="photo-frame" style="animation-delay: 0.9s">
+                    <img src="photo/photo1.jpg" alt="Memory 5">
+                    <p class="photo-caption">Making Memories</p>
+                </div>
+                <div class="photo-frame" style="animation-delay: 1.1s">
+                    <img src="photo/photo6.jpg" alt="Memory 6">
+                    <p class="photo-caption">My Favorite Moment</p>
+                </div>
+            </div>
+            <button class="vintage-btn" onclick="nextSection()">Read My Letter 💌</button>
+        </section>
+
+        <!-- Letter Section -->
+        <section id="letter" class="section">
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <h2 class="letter-title">To My Beautiful Girlfriend</h2>
+                    <div class="letter-content">
+                        <p>My Dearest Potato,</p>
+                        <p>Happy 20th Birthday to my beautiful baby. Even though it's nearly 3 months, you already became someone very special to me. Today I just want you to know how important you are to me. </p>
+                        <p>My promises: I promise to always make you smile, even on your bad days. I promise to listen to you. I promise I will no longer be the wicked person I was before. I promise to celebrate every birthday with you if you'll let me. My baby you're very important to me and I promise to stay by your side.</p>
+                        <p>Birthday mhr chik ya dk luu dway nk pyor shwin pr zyy ko koh kha ly ly yay ko ko baby gho a myrr gyi chik twr ml nw mway nae mhr pyor syr dway a myrr gyi phn tee pee memories dway thu thu lok kya ya ag ko ko a myrr gyi mhaw lint nyy pr b nw ka ly ly ko koh kha ly ly pyor nyy dr gho ll myin chin nyy b</p>
+                        <p>No matter what happens, I'm really happy to have you in my life.
+                            Stay cute, stay childish, and stay mine.❤️
+                        </p>
+                        <p class="letter-signature">Forever yours,<br>With all my love ❤️</p>
+                    </div>
+                </div>
+            </div>
+            <button class="vintage-btn" onclick="nextSection()">One More Thing... 🎁</button>
+        </section>
+
+        <!-- Present Section -->
+        <section id="present" class="section">
+            <div class="present-box">
+                <div class="gift-icon">🎁</div>
+                <h2 class="present-title">Your Birthday Present</h2>
+                <div class="coming-soon">
+                    <p class="coming-text">Coming Soon...</p>
+                    <p class="surprise-text">Something special is on its way! 💝</p>
+                </div>
+            </div>
+            <button class="vintage-btn" onclick="restart()">Start Over 🔄</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
