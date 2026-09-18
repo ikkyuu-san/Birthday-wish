@@ -3,7 +3,7 @@
 A beautiful, animated birthday website with photo album and love letter.
 
 ## View Live
-Visit the website at: https://YOUR_USERNAME.github.io/birthday-wish
+Visit the website at: https://birthday-wish-three-ashy.vercel.app/
 
 ## Features
 - Interactive birthday greeting
